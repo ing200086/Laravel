@@ -30,7 +30,13 @@ class WelcomeController extends Controller {
 	 */
 	public function index()
 	{
-		return view('welcome');
+		$data['company'] = "Default";
+		$data['links'] = [
+			"Home" => '/',
+			"Contact" => '/contact'
+			];
+
+		return view('welcome', $data);
 	}
 
 }

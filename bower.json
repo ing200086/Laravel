@@ -1,0 +1,8 @@
+{
+  "name": "Laravel5App",
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "bootstrap-sass-official": "~3.3.1",
+    "foundation-sass": "~5.5.1"
+  }
+}
