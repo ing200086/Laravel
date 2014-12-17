@@ -1,4 +1,10 @@
 //
-@import "./resources/assets/vendor/foundation-sass/scss/normalize";
-@import "./resources/assets/vendor/foundation-sass/scss/foundation";
-@import "./resources/assets/sass/partials/navigation";
+$assetPath: "./resources/assets";
+$imgPath: "./public/assets/img";
+
+// @import "./resources/assets/vendor/foundation-sass/scss/normalize";
+// @import "${assetPath}/vendor/foundation-sass/scss/foundation";
+// @import "${assetPath}/sass/partials/default";
+// @import "${assetPath}/sass/partials/navigation";
+
+
