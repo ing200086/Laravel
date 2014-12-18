@@ -1,4 +1,4 @@
-<?php
+<?php namespace Tests\Features\Bootstrap;
 
 use Behat\Behat\Context\Context;
 use Behat\Behat\Context\SnippetAcceptingContext;

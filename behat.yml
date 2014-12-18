@@ -5,3 +5,4 @@ default:
         default:
             paths:
                 - %paths.base%/tests/features
+            contexts: [Tests\Features\Bootstrap\FeatureContext]

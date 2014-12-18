@@ -1,18 +1,16 @@
-<?php
-
-namespace spec\App;
+<?php namespace spec\App;
 
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
-class fooSpec extends ObjectBehavior
+class FooSpec extends ObjectBehavior
 {
-    function it_is_initializable()
+    public function itIsInitializable()
     {
         $this->shouldHaveType('App\foo');
     }
 
-    function has_collection()
+    public function hasCollection()
     {
         $this->shouldHaveItems();
     }
