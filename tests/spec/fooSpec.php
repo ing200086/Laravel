@@ -1,9 +1,8 @@
 <?php namespace spec\App;
 
 use PhpSpec\ObjectBehavior;
-use Prophecy\Argument;
 
-class FooSpec extends ObjectBehavior
+class fooSpec extends ObjectBehavior
 {
     public function itIsInitializable()
     {

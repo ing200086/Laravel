@@ -1,8 +1,10 @@
 default:
     autoload:
         '': %paths.base%/tests/features/bootstrap
+    extensions:
+        Behat\MinkExtension:
+            base_url: 'http://laravel5.app'
+            goutte: ~
     suites:
         default:
-            paths:
-                - %paths.base%/tests/features
-            contexts: [Tests\Features\Bootstrap\FeatureContext]
+            paths: [ %paths.base%/tests/features ]
