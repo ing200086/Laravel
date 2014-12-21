@@ -1,0 +1,29 @@
+/* LOGO AND TITLE */
+
+header.wrap {
+  padding: 0;
+}
+
+.logo_title {
+  float: left;
+  margin: 2.1rem 0;
+  padding-left: 2em;
+}
+
+.logo {
+  margin-right: 1em;
+  vertical-align: top;
+  /* This line scales the logo with base font size if necessary */
+  width: 2.8125rem;
+}
+
+h1.title {
+  display: inline;
+  font-weight: 900;
+  font-size: 2.625rem;
+  line-height: 2.8125rem;
+}
+
+h1.title span {
+  font-weight: 300;
+}

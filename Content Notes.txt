@@ -1,0 +1,10 @@
+1. Header & Menu
+    Left Aligned:
+        Logo Image
+        Business Name
+    Right aligned:
+        Main nav menu
+
+2. Selling Tag
+    Center aligned:
+        Short paragraph giving supplier city's mission statement.

@@ -1,0 +1,137 @@
+/* NAV MENU */
+
+.navmenu a {
+  text-decoration: none;
+}
+
+ul.navmenu {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  white-space: nowrap;
+}
+
+ul.navmenu:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+ul.navmenu li {
+  cursor: pointer;
+  list-style: none;
+  display: block;
+  position: relative;
+  padding: 0;
+}
+
+ul.navmenu li a {
+  display: inline-block;
+}
+
+/* switch symbol for showing child */
+ul.navmenu li span {
+  display: inline-block;
+  text-align: right;
+  width: 1.4em;
+}
+
+/* show child */
+/*ul.navmenu li:hover ul,*/
+ul.navmenu li ul.childopen
+{
+  display: block;
+}
+
+ul.navmenu li ul {
+  display: none;
+}
+
+/* expanded nav child menu */
+ul.navmenu li ul {
+  padding: 0;
+}
+
+/* expanded nav menu */
+@media (min-width: $nav-collapse-toggle-width) {
+
+  .navicon {
+    display: none;
+  }
+
+  .navmenu {
+    display: block;
+  }
+
+  ul.navmenu {
+    float: right;
+    display: inline-table;
+  }
+
+  ul.navmenu li {
+    float: left;
+  }
+
+  ul.navmenu li a {
+    line-height: 7.1875rem;
+    padding: 0 1.5625rem;
+    height: 100%;
+  }
+
+  /* expanded nav child menu */
+  ul.navmenu li ul {
+    position: absolute;
+    z-index: 999;
+    top: 100%;
+    left: 0;
+  }
+
+  ul.navmenu li ul li {
+    float: none;
+  }
+
+  ul.navmenu li ul li a {
+    width: 100%;
+    line-height: 4.5rem;                                  
+    padding: 0 2.1875rem;
+  }
+
+}
+
+/* collapsed nav menu */
+@media (max-width: $nav-collapse-toggle-width) {
+
+  .navicon {
+    float: right;
+    font-size: 1.65rem;
+    line-height: 2.8125rem;
+    text-align: center;
+    width: 3.4rem;
+    margin: 2.1875rem 0;
+    cursor: pointer;
+  }
+
+  .navmenu {
+    clear: left;
+    display: none;
+  }
+
+  .navmenu.show {
+    display: block;
+  }
+
+  ul.navmenu li a {
+    width: 100%;
+    line-height: 4.5rem;
+    padding: 0 2.1875rem;
+  }
+
+  /* collapsed nav child menu */
+  ul.navmenu li ul {
+    position: relative;
+    left: 0;
+  }
+
+}

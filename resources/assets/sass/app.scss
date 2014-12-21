@@ -1,6 +1,8 @@
-//  Modules and Variables
-// @import "partials/base";
+$wrap-max-stretch: 75rem;
+$min-padding: 2rem;
+$nav-collapse-toggle-width : 61rem;
 
-//  Partials
+$color-1: #004459;
 
-// Third-party
+@import "structure/base.scss";
+@import "style/base.scss";

@@ -1,0 +1,22 @@
+body {
+  font-family: "Open sans", sans-serif, "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma;
+}
+
+header {
+    background-color: $color-1;
+    color: #fff;
+}
+
+header a {
+    color: #fff;
+    background-color: lighten($color-1, 15%);
+}
+
+header a:hover,
+header a:active {
+    background-color: lighten($color-1, 30%);
+}
+
+header ul {
+    background-color: #000;
+}
